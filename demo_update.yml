@@ -1,0 +1,66 @@
+WAF_Achilles:
+  '1':
+    cn2achilles.cms5l-prod.chinaslb.com:
+      node_ip:
+      - 159.138.25.94
+      - 119.13.88.2
+WAF_Edge:
+  '1':
+    fallback.edge.mlytics.com:
+      node_ip:
+      - 35.194.209.150
+  '2':
+    edgeextension.njhm0832.com:
+      node_ip:
+      - 13.248.241.65
+      - 76.223.111.166
+  '3':
+    globalaccelerator-global.njhm0832.com:
+      node_ip:
+      - 3.33.177.177
+      - 15.197.186.70
+  '4':
+    globalaccelerator-china.njhm0832.com:
+      node_ip:
+      - 168.63.134.151
+      - 23.101.1.151
+      - 23.101.1.231
+WAF_Intermediate:
+  '1':
+    emeai.mlytics.com:
+      node_ip:
+      - 157.175.109.55
+      - 157.175.136.191
+  '2':
+    sgi.mlytics.com:
+      node_ip:
+      - 13.213.239.152
+  '3':
+    usi.mlytics.com:
+      node_ip:
+      - 35.236.118.170
+      - 35.236.90.60
+  '4':
+    jpkri.mlytics.com:
+      node_ip:
+      - 35.72.154.222
+      - 18.179.215.226
+      - 3.36.21.95
+  '5':
+    twi.mlytics.com:
+      node_ip:
+      - 35.236.169.25
+      - 35.234.11.217
+      - 34.80.189.248
+      - 35.194.185.157
+      - 35.194.181.119
+  '6':
+    twddos.iwaf.mlytics.com:
+      node_ip:
+      - 35.194.204.17
+      - 35.229.230.44
+  '7':
+    twddos-2.iwaf.mlytics.com:
+      node_ip:
+      - 34.81.176.185
+      - 35.201.153.32
